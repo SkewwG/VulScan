@@ -1,0 +1,5 @@
+[+]http://school.szpxe.com/perfect_edit.do          Exist struts2_045!
+[+]http://www.xigangmall.com          Exist s2-009!
+[+]http://school.szpxe.com/perfect_edit.do          Exist struts2_045!
+[+]http://www.xigangmall.com          Exist s2-devmode!
+[+]http://school.szpxe.com/perfect_edit.do          Exist struts2_045!
