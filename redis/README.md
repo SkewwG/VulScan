@@ -15,6 +15,7 @@ python3 -m pip install -r requirments.txt
 自动检测IP是否可上传公钥，如果可以建立链接，并开启交互式
 
 eg: python3 redis_shell.py x.x.x.x
+
 ![](../imgs/redis/redis_shell.png)
 
 ## _redis_shell_multi.py
