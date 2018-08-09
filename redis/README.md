@@ -9,6 +9,14 @@
 ## install
 python3 -m pip install -r requirments.txt
 
+## usage
+
+先在自己的服务器上生成证书
+
+ssh-keygen -t rsa
+
+一直回车即可，默认保存在/root/.ssh/目录下
+
 
 ## redis_shell.py
 
