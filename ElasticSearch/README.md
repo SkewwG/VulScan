@@ -4,9 +4,13 @@
 * elasticsearch_unauth_multi.py
 
 默认端口9200
+
 http://localhost:9200/_plugin/head/ web管理界面
+
 http://localhost:9200/_cat/indices
+
 http://localhost:9200/_river/_search 查看数据库敏感信息
+
 http://localhost:9200/_nodes 查看节点数据
 
 ## install
