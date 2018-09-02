@@ -2,7 +2,7 @@
 
 * CVE-2018-7600.py
 * CVE-2018-7600_multi.py
-
+* CVE-2018-7600_shell.py
 
 ## CVE-2018-7600.py
 
@@ -19,3 +19,11 @@ python3 CVE-2018-7600.py http://xxx.xxx.xxx.xxx:8080
 python3 CVE-2018-7600_multi.py /root/unAuth/Drupal/us.txt 10
 
 ![](../imgs/Drupal/CVE-2018-7600_multi.png)
+
+## CVE-2018-7600_shell.py
+
+与目标交互
+
+python3 CVE-2018-7600_shell.py http://xxx.xxx.xxx.xxx
+
+![](../imgs/Drupal/CVE-2018-7600_shell.png)
