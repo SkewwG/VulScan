@@ -43,7 +43,7 @@ python3 iis_put.py http://xxx.xxx.xxx.xxx
 
 批量检测
 
-python3 CVE-2018-7600_multi.py /root/unAuth/Drupal/us.txt 10
+python3 iis_put_multi.py /root/unAuth/Drupal/us.txt 10
 
 
 
