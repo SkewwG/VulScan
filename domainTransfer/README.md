@@ -29,7 +29,7 @@ python3 domainTransfer.py domain.txt 10
 
 如果有dig工具：
 命令格式：dig @dns服务器 根域名 axfr
-dig @dns1.hezeu.edu.cn. hezeu.edu.cn axfr
+dig @dns1.XXX. XXX axfr
 ```
 
 ![](../imgs/domainTranster/domainTranstet1.png)
