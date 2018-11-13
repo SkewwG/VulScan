@@ -1,0 +1,4 @@
+
+[http://154.93.134.68/data/backupdata/dede_a~3.txt] -> INSERT INTO `dede_admin` VALUES('1','10','admin','f297a57a5a743894a0e4','admin','dede58.com','admin@dede58.com','','1500790713','127.0.0.1');
+
+[http://154.93.134.96/data/backupdata/dede_a~3.txt] -> INSERT INTO `dede_admin` VALUES('1','10','admin','f297a57a5a743894a0e4','admin','dede58.com','admin@dede58.com','','1500790713','127.0.0.1');
